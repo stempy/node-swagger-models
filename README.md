@@ -11,7 +11,7 @@ Generate javascript models from a self-documenting Swagger API.
 
 ## usage
 
-node_swagger_models nsmconfig.json
+node-swagger-models nsmconfig.json
 
 nsmconfig.json
 ```
@@ -22,7 +22,7 @@ nsmconfig.json
 }
 ```
 
-node_swagger_models
+node-swagger-models
 
 package.json
 ```

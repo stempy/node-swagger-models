@@ -1,6 +1,6 @@
 {
   "name": "node-swagger-models",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Generate Backbone Models from a Swagger API",
   "main": "./lib/index.js",
   "scripts": {},
@@ -9,7 +9,7 @@
     "url": "https://github.com/RobinHerbots/node-swagger-models"
   },
   "bin": {
-    "node_swagger_models": "./bin/node_swagger_models.js"
+    "node_swagger_models": "./bin/node-swagger-models.js"
   },
   "license": "MIT",
   "bugs": {
@@ -19,5 +19,8 @@
   "dependencies": {
     "bluebird": "^3.5.0",
     "swagger-client": "^2.0.41"
+  },
+  "scripts": {
+    "start": "node bin/node-swagger-models.js"
   }
 }

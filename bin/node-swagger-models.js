@@ -8,7 +8,6 @@ if (process.argv[2] !== undefined) {
     config = require(process.cwd() + sep + process.argv[2]);
 } else {
     var pkg = require(process.cwd() + sep + "package.json");
-    console.log(JSON.stringify(pkg));
     config = pkg["node-swagger-models"];
     if(config === undefined) {
         console.log("No \"node-swagger-models\" section in package.json");
