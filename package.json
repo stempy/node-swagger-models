@@ -1,23 +1,23 @@
 {
   "name": "hapi-swagger-models",
-  "version": "0.1.2",
+  "version": "0.0.1",
   "description": "Generate Backbone Models from a Swagger API",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "main": "./lib/index.js",
+  "scripts": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/codeandfury/node-hapi-swagger-models"
+    "url": "https://github.com/RobinHerbots/node-swagger-models"
   },
-  "author": "Andculture",
+  "bin": {
+    "node_swagger_models": "./bin/node_swagger_models"
+  },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/codeandfury/node-hapi-swagger-models/issues"
+    "url": "https://github.com/RobinHerbots/node-swagger-models/issues"
   },
-  "homepage": "https://github.com/codeandfury/node-hapi-swagger-models",
+  "homepage": "https://github.com/RobinHerbots/node-swagger-models",
   "dependencies": {
-    "hapi": "^7.0.0",
+    "bluebird": "^3.5.0",
     "swagger-client": "^2.0.41"
   }
 }
