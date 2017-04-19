@@ -1,5 +1,5 @@
 {
-  "name": "hapi-swagger-models",
+  "name": "node-swagger-models",
   "version": "0.0.1",
   "description": "Generate Backbone Models from a Swagger API",
   "main": "./lib/index.js",
