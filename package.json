@@ -9,7 +9,7 @@
     "url": "https://github.com/RobinHerbots/node-swagger-models"
   },
   "bin": {
-    "node_swagger_models": "./bin/node_swagger_models"
+    "node_swagger_models": "./bin/node_swagger_models.js"
   },
   "license": "MIT",
   "bugs": {
