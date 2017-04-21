@@ -7,7 +7,7 @@ Generate javascript models from a self-documenting Swagger API.
 
 ## Install
 
-    $ npm install node-swagger-models
+    $ npm install -g node-swagger-models
 
 ## Usage
 

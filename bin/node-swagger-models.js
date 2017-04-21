@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-var nsm = require('../lib/index'),
+var nsm = require('../lib/swagger-models'),
     sep = require('path').sep;
 
 

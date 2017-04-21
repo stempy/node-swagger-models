@@ -2,7 +2,7 @@
   "name": "node-swagger-models",
   "version": "0.0.8",
   "description": "Generate javascript models from a Swagger API",
-  "main": "./lib/index.js",
+  "main": "./lib/swagger-models.js",
   "scripts": {},
   "repository": {
     "type": "git",
