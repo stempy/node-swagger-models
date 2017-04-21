@@ -1,6 +1,6 @@
 {
   "name": "node-swagger-models",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "description": "Generate Backbone Models from a Swagger API",
   "main": "./lib/index.js",
   "scripts": {},
@@ -22,5 +22,10 @@
   },
   "scripts": {
     "start": "node bin/node-swagger-models.js"
+  },
+  "node-swagger-models": {
+    "fileOutput": "./tmp",
+    "api": "http://localhost:1802/api-docs/v1/swagger.json",
+    "format": "backbone"
   }
 }
