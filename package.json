@@ -1,15 +1,23 @@
 {
   "name": "node-swagger-models",
-  "version": "0.0.6",
-  "description": "Generate Backbone Models from a Swagger API",
+  "version": "0.0.7",
+  "description": "Generate javascript models from a Swagger API",
   "main": "./lib/index.js",
   "scripts": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/RobinHerbots/node-swagger-models"
   },
+  "keywords": [
+    "swagger",
+    "backbone",
+    "node",
+    "json",
+    "generate",
+    "model"
+  ],
   "bin": {
-    "node_swagger_models": "./bin/node-swagger-models.js"
+    "node-swagger-models": "./bin/node-swagger-models.js"
   },
   "license": "MIT",
   "bugs": {
