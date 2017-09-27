@@ -3,7 +3,13 @@
   "version": "0.0.11",
   "description": "Generate javascript models from a Swagger API",
   "main": "./lib/swagger-models.js",
-  "scripts": {},
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-available-tasks": "^0.6.0",
+    "grunt-cli": "^1.2.0",
+    "load-grunt-tasks": "^3.2.0",
+    "grunt-release": "^0.14.0"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/RobinHerbots/node-swagger-models"
