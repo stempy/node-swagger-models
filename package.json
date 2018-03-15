@@ -32,7 +32,7 @@
   "homepage": "https://github.com/RobinHerbots/node-swagger-models",
   "dependencies": {
     "bluebird": "^3.5.0",
-    "swagger-client": "^2.0.41"
+    "swagger-client": "^3.5.1"
   },
   "scripts": {
     "start": "node bin/node-swagger-models.js"
