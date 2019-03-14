@@ -6,6 +6,7 @@ Generate javascript models from a self-documenting Swagger API.
 - plain json
 - typescript
 - js class (classout)
+- js prototype function
 
 ## Install
 
@@ -20,7 +21,7 @@ nsmconfig.json
 {
   "fileOutput": "./tmp",
   "api": "http://localhost:1802/api-docs/v1/swagger.json",
-  "format": "backbone|vanilla|classout|typescript"
+  "format": "backbone|vanilla|classout|function|typescript"
 }
 ```
 
